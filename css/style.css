@@ -52,8 +52,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: pink;
-  transition: all 1s;
+  color: purple;
+  transition: all 0.1s;
 }
 
 img {
@@ -166,5 +166,5 @@ img {
 
 .main p {
   font-size: 15px;
-  text-align: CENTER;
+  text-align: center;
 }
