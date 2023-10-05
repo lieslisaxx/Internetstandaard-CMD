@@ -70,8 +70,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  align-items: center;
+  color: whitesmoke;
   font-size: 50px;
 }
 
