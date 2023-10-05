@@ -13,6 +13,7 @@
 
 body {
   height: 60vh;
+  background-color: white;
 }
 
 .logo {
@@ -103,78 +104,6 @@ img {
   font-size: 50px;
 }
 
-/*textbox 1  "Home page"*/
-.text-box1 h2 {
-  font-size: 20px;
-  text-align: center;
-  border: 5px solid black;
-  background-color: black;
-  padding: 25px 50px;
-  color: white;
-}
-
-.text-box1 {
-  font-size: 20px;
-  text-align: center;
-  border: 5px solid black;
-  background-color: white;
-  padding: 25px 50px;
-}
-
-/*textbox 2  "Home page"*/
-.text-box2 h2 {
-  font-size: 20px;
-  text-align: center;
-  border: 5px solid black;
-  background-color: black;
-  padding: 25px 50px;
-  color: white;
-}
-
-.text-box2 p {
-  text-align: center;
-  border: 5px solid black;
-  background-color: white;
-  padding: 25px 50px;
-}
-
-/*textbox 3  "Home page"*/
-.text-box3 h2 {
-  font-size: 20px;
-  text-align: center;
-  border: 5px solid black;
-  background-color: black;
-  padding: 25px 50px;
-  color: white;
-}
-
-.text-box3 p {
-  text-align: center;
-  border: 5px solid black;
-  background-color: white;
-  padding: 25px 50px;
-}
-
-/*textbox 4  "Home page"*/
-.text-box4 h2 {
-  font-size: 20px;
-  text-align: center;
-  border: 5px solid black;
-  background-color: black;
-  padding: 25px 50px;
-  color: white;
-}
-
-.text-box4 p {
-  text-align: center;
-  background-color: white;
-  padding: 25px 50px;
-}
-
-.footer h1 {
-  font-size: 20px;
-}
-
 .footer {
   text-align: center;
   background-color: white;
@@ -200,37 +129,54 @@ img {
 }
 
 /*introduction*/
-.box1 {
-  background-color: white;
-  border: 1px solid purple;
-  padding: 30px;
-  margin: 20px;
+
+/*onzichtbare box*/
+.box1onzichtbaar {
+  padding: 40px;
+  margin: 5px;
   /* scale the pic smaller when going down*/
   width: 100%;
+  background-color: pink;
 }
 
+/*foto*/
 .boximage1 {
-  width: 600px;
-  height: 400px;
-  padding: 30px;
+  width: 500px;
+  height: 300px;
+  padding: 0;
   float: right;
-  margin: 10px;
+  margin: 30px;
 }
 
+/*titel*/
 .box2title {
-  background-color: white;
-  border: 1px solid purple;
   padding: 30px;
-  margin: 5px;
+  margin: 0;
   /* scale the pic smaller when going down*/
   width: 60%;
+  text-align: center;
+  font-style: bold;
+  font-size: 20px;
 }
 
+/*content*/
 .box2content {
-  background-color: white;
-  border: 1px solid purple;
-  padding: 90px;
-  margin: 5px;
+  padding: 40px;
+  margin: 0;
   /* scale the pic smaller when going down*/
   width: 60%;
+  font-size: 18px;
+}
+
+.box2content a {
+  margin: 20px;
+}
+
+.boximage2 {
+  width: 500px;
+  height: 300px;
+  padding: 0;
+  float: left;
+  margin: 30px;
+  box-sizing: border-box;
 }
