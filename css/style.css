@@ -63,6 +63,7 @@ img {
   height: 400px;
   /* with this you can cover your image full stretch */
   object-fit: cover;
+  opacity: 0.8;
 }
 
 /* words frontpage*/
@@ -71,7 +72,7 @@ img {
   top: 35%;
   left: 85%;
   transform: translate(-50%, -50%);
-  color: whitesmoke;
+  color: black;
   font-size: 40px;
 }
 
@@ -196,4 +197,39 @@ img {
 .main p {
   font-size: 15px;
   text-align: center;
+}
+
+/*introduction*/
+.box1 {
+  background-color: white;
+  border: 1px solid purple;
+  padding: 30px;
+  margin: 5px;
+  /* scale the pic smaller when going down*/
+  width: 100%;
+}
+.boximage1 {
+  width: 600px;
+  height: 400px;
+  padding: 30px;
+  float: right;
+  margin: 10px;
+}
+
+.box2title {
+  background-color: white;
+  border: 1px solid purple;
+  padding: 30px;
+  margin: 5px;
+  /* scale the pic smaller when going down*/
+  width: 50%;
+}
+
+.box2content {
+  background-color: white;
+  border: 1px solid purple;
+  padding: 90px;
+  margin: 5px;
+  /* scale the pic smaller when going down*/
+  width: 60%;
 }
