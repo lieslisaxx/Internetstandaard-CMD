@@ -61,19 +61,19 @@ nav ul li a:hover {
 
 img {
   width: 100%;
-  height: 400px;
+  height: 300px;
   /* with this you can cover your image full stretch */
   object-fit: cover;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Words Frontpage*/
 .section1 h2 {
   position: absolute;
-  top: 35%;
+  top: 27%;
   left: 85%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
   font-size: 40px;
 }
 
@@ -91,7 +91,7 @@ img {
 .btn1 {
   padding: 10px 20px;
   border-radius: 0.5rem;
-  font-size: 17px;
+  font-size: 18px;
   color: purple;
 }
 
