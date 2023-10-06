@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
   scroll-behavior: smooth;
+  background-image: url("mic2.jpg");
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .logo {
-  color: whitesmoke;
+  color: orange;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
@@ -28,9 +29,8 @@ body {
   text-transform: uppercase;
 }
 
-/* NAVIGATIE bar*/
+/* Navigation bar*/
 nav {
-  background: transparent;
   height: 70px;
   width: 100%;
 }
@@ -54,7 +54,7 @@ nav ul li a {
 nav ul li a:hover {
   color: white;
   transition: all 0.4s;
-  background-color: purple;
+  background-color: orange;
   padding: 10px 20px;
   border-radius: 0.5rem;
 }
@@ -67,7 +67,7 @@ img {
   opacity: 0.8;
 }
 
-/* words frontpage*/
+/* Words Frontpage*/
 .section1 h2 {
   position: absolute;
   top: 35%;
@@ -77,7 +77,7 @@ img {
   font-size: 40px;
 }
 
-/* button*/
+/* button listen*/
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -85,7 +85,7 @@ img {
   font-size: 17px;
   font-weight: 500;
   transition: al 0.4s ease;
-  background: purple;
+  background: pink;
 }
 
 .btn1 {
@@ -95,60 +95,9 @@ img {
   color: purple;
 }
 
-.section1 h3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-size: 50px;
-}
+/*Introduction*/
 
-.footer {
-  text-align: center;
-  background-color: white;
-  font-style: normal;
-}
-
-/* THIRD page "profile"*/
-.images2 {
-  width: 600px;
-  height: 600px;
-  padding: 25px 25px;
-}
-/* with this you can cover your image full stretch */
-
-.main h2 h3 {
-  font-size: 20px;
-  text-align: center;
-}
-
-.main p {
-  font-size: 15px;
-  text-align: center;
-}
-
-/*introduction*/
-
-/*onzichtbare box*/
-.box1onzichtbaar {
-  padding: 40px;
-  margin: 5px;
-  /* scale the pic smaller when going down*/
-  width: 100%;
-  background-color: pink;
-}
-
-/*foto*/
-.boximage1 {
-  width: 500px;
-  height: 300px;
-  padding: 0;
-  float: right;
-  margin: 30px;
-}
-
-/*titel*/
+/*Titel*/
 .box2title {
   padding: 30px;
   margin: 0;
@@ -157,26 +106,92 @@ img {
   text-align: center;
   font-style: bold;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 /*content*/
 .box2content {
   padding: 40px;
-  margin: 0;
+  margin: 30px;
   /* scale the pic smaller when going down*/
-  width: 60%;
-  font-size: 18px;
+  width: 50%;
+  font-size: 17px;
+}
+
+.box3content {
+  padding: 20px;
+  margin: 30px;
+  /* scale the pic smaller when going down*/
+  width: 50%;
+  font-size: 17px;
+}
+
+.box3title {
+  padding: 20px;
+  /* scale the pic smaller when going down*/
+  width: 70%;
+  text-align: center;
+  font-style: bold;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .box2content a {
   margin: 20px;
 }
 
-.boximage2 {
+.box3content a {
+  margin: 20px;
+}
+
+/*video*/
+.boxvideo1 {
   width: 500px;
   height: 300px;
-  padding: 0;
-  float: left;
-  margin: 30px;
-  box-sizing: border-box;
+  padding: 30px;
+  float: right;
+  margin: 0;
+}
+
+.box1onzichtbaar {
+  padding: 5px;
+  margin: 1px;
+  /* scale the pic smaller when going down*/
+  width: 100%;
+}
+
+.boxvideo2 {
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  float: right;
+  margin: 0;
+}
+
+.boxvideo3 {
+  padding: 40px;
+  float: right;
+  margin: 0;
+}
+
+.boxrecorder1 {
+  padding: 50;
+  margin: 50px;
+}
+
+.boxrecorder2 {
+  padding: 50;
+  margin: 50px;
+}
+
+.boxrecorder3 {
+  padding: 50 50;
+  margin: 50px;
+}
+
+/*Footer*/
+.footer {
+  text-align: center;
+  background-color: pink;
+  font-size: 10px;
 }
