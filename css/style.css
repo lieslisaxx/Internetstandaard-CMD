@@ -32,7 +32,7 @@ body {
 nav {
   height: 70px;
   width: 100%;
-  background: white;
+  background: lightpink;
 }
 
 nav ul {
@@ -104,7 +104,7 @@ img {
 .section2 {
   position: absolute;
   top: 30%;
-  left: 50%;
+  left: 59%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
@@ -113,7 +113,7 @@ img {
 .section3 {
   position: absolute;
   width: 40%;
-  left: 60%;
+  left: 50%;
   padding: 10px;
   height: auto;
 }
@@ -135,6 +135,24 @@ img {
   padding: 30px;
   top: 196%;
   background-color: pink;
+}
+
+.section7 {
+  position: absolute;
+  left: 50%;
+  padding: 30px;
+  top: 65%;
+  background-color: pink;
+  font-size: 19px;
+}
+
+.section8 {
+  position: absolute;
+  left: 50%;
+  padding: 30px;
+  top: 65%;
+  background-color: pink;
+  font-size: 19px;
 }
 
 /* button listen*/
@@ -161,6 +179,7 @@ img {
   font-style: bold;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
 }
 
 /*content*/
@@ -183,12 +202,19 @@ img {
 }
 
 .box4content {
-  padding: 35px;
+  padding: 80px;
   margin: 20px;
   /* scale the pic smaller when going down*/
-  width: 100%;
+  width: 50%;
   font-size: 17px;
-  border: 5px solid red;
+}
+
+.box4title {
+  padding: 30px;
+  margin: 20px;
+  /* scale the pic smaller when going down*/
+  width: 60%;
+  font-size: 17px;
 }
 
 .box3title {
@@ -202,13 +228,13 @@ img {
 }
 
 .box5content {
-  padding: 40px;
+  padding: 50px;
   margin: 30px;
   /* scale the pic smaller when going down*/
-  width: 50%;
+  width: 40%;
   font-size: 17px;
   border-radius: 0.5rem;
-  background-color: pink;
+  background-color: white;
 }
 
 .box2content a {
@@ -253,8 +279,14 @@ img {
 .boxvideo11 {
   width: 40%;
   height: 200px;
-  padding: 10px;
+  padding: 50px;
   margin: 80px;
+  background-color: pink;
+}
+
+.boxvideo11 {
+  text-align: left;
+  font-size: 19px;
 }
 
 .boxvideo12 {
@@ -313,14 +345,12 @@ img {
 /*Footer*/
 .footer {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: pink;
+  background-color: black;
   font-size: 15px;
   color: white;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
-  margin: 0px;
+  margin: 10px;
 }
 
 .footer h1 {
