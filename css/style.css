@@ -7,7 +7,7 @@
   /*dots by listing*/
   list-style: none;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  font-family: "Lobster", sans-serif;
   scroll-behavior: smooth;
   background-image: url("mic2.jpg");
 }
@@ -18,22 +18,21 @@ body {
 }
 
 .logo {
-  color: orange;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   width: 135px;
   height: auto;
   flex-direction: left;
-  text-transform: uppercase;
+  color: aliceblue;
 }
 
 /* Navigation bar*/
 nav {
   height: 70px;
   width: 100%;
-  background: pink;
+  background: white;
 }
 
 nav ul {
@@ -48,15 +47,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: black;
   font-size: 17px;
   background-color: transparent;
-  background: blue;
 }
 
 nav ul li a:hover {
-  color: white;
-  background: purple;
+  color: black;
+  background: orange;
   transition: all 1s;
   padding: 10px 20px;
   border-radius: 0.5rem;
@@ -78,6 +76,11 @@ img {
   opacity: 1;
 }
 
+.images1 {
+  width: 100%;
+  height: auto;
+}
+
 .images2 {
   width: 30%;
   height: 150px;
@@ -88,13 +91,31 @@ img {
 }
 
 /* Words Frontpage*/
-.section1 h2 {
+.section1 {
   position: absolute;
-  top: 65%;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section2 {
+  position: absolute;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
+}
+
+.section3 {
+  position: absolute;
+  width: 40%;
+  left: 60%;
+  padding: 30px;
+  height: auto;
 }
 
 /* button listen*/
@@ -105,14 +126,7 @@ img {
   font-size: 17px;
   font-weight: 500;
   transition: al 0.4s ease;
-  background: purple;
-  color: white;
-}
-
-.btn1 {
-  padding: 10px 20px;
-  border-radius: 0.5rem;
-  font-size: 18px;
+  background: orange;
   color: white;
 }
 
@@ -132,11 +146,14 @@ img {
 
 /*content*/
 .box2content {
-  padding: 40px;
+  padding: 50px;
   margin: 30px;
   /* scale the pic smaller when going down*/
   width: 50%;
   font-size: 17px;
+  border: 5px solid whitesmoke;
+  border-radius: 40px;
+  background-color: whitesmoke;
 }
 
 .box3content {
@@ -164,6 +181,17 @@ img {
   font-style: bold;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+.box5content {
+  padding: 50px;
+  margin: 30px;
+  /* scale the pic smaller when going down*/
+  width: 50%;
+  font-size: 17px;
+  border: 5px solid whitesmoke;
+  border-radius: 40px;
+  background-color: whitesmoke;
 }
 
 .box2content a {
@@ -233,6 +261,7 @@ img {
 
 .boxrecorder2 {
   margin: 20px;
+  padding: 20px;
 }
 
 /*Footer*/
