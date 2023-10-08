@@ -114,20 +114,40 @@ img {
   position: absolute;
   width: 40%;
   left: 60%;
+  padding: 10px;
+  height: auto;
+}
+
+.section4 {
+  position: absolute;
+  left: 29%;
   padding: 30px;
   height: auto;
+  top: 165%;
+  color: white;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.section6 {
+  position: absolute;
+  left: 55%;
+  padding: 30px;
+  top: 196%;
+  background-color: pink;
 }
 
 /* button listen*/
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 40px;
   border-radius: 0.5rem;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   transition: al 0.4s ease;
   background: orange;
-  color: white;
+  color: black;
+  border: 5px solid white;
 }
 
 /*Introduction*/
@@ -138,10 +158,9 @@ img {
   margin: 0;
   /* scale the pic smaller when going down*/
   width: 60%;
-  text-align: center;
   font-style: bold;
-  font-size: 20px;
-  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 /*content*/
@@ -150,22 +169,21 @@ img {
   margin: 30px;
   /* scale the pic smaller when going down*/
   width: 50%;
-  font-size: 17px;
-  border: 5px solid whitesmoke;
-  border-radius: 40px;
-  background-color: whitesmoke;
+  font-size: 20px;
+  flex-direction: right;
 }
 
 .box3content {
   padding: 20px;
   margin: 30px;
   /* scale the pic smaller when going down*/
-  width: 50%;
-  font-size: 17px;
+  width: 40%;
+  font-size: 20px;
+  flex-direction: right;
 }
 
 .box4content {
-  padding: 40px;
+  padding: 35px;
   margin: 20px;
   /* scale the pic smaller when going down*/
   width: 100%;
@@ -179,19 +197,18 @@ img {
   width: 70%;
   text-align: center;
   font-style: bold;
-  font-size: 20px;
-  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .box5content {
-  padding: 50px;
+  padding: 40px;
   margin: 30px;
   /* scale the pic smaller when going down*/
   width: 50%;
   font-size: 17px;
-  border: 5px solid whitesmoke;
-  border-radius: 40px;
-  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  background-color: pink;
 }
 
 .box2content a {
@@ -206,22 +223,30 @@ img {
 .boxvideo1 {
   width: 500px;
   height: 300px;
-  padding: 20px;
+  padding: 10px;
   float: left;
   margin: 0;
+  background-color: lightpink;
+  border: 5px solid white;
 }
 
 .boxvideo2 {
   width: 500px;
   height: 300px;
-  padding: 20px;
+  padding: 10px;
   margin: 0;
   float: left;
+  background-color: lightpink;
+  border: 5px solid white;
 }
 
 .boxvideo3 {
-  padding: 30px;
-  float: right;
+  padding: 20px;
+  margin: 0;
+}
+
+.boxvideo4 {
+  padding: 20px;
   margin: 0;
 }
 
@@ -248,25 +273,56 @@ img {
 }
 
 .box1onzichtbaar {
-  padding: 5px;
+  padding: 40px;
   margin: 1px;
   /* scale the pic smaller when going down*/
   width: 100%;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  left: 50%;
+  right: 50%;
+  text-align: center;
+}
+
+.box2onzichtbaar {
+  padding: 10px;
+  margin: 1px;
+  /* scale the pic smaller when going down*/
+  width: 100%;
+  color: black;
+  font-size: 25px;
+  left: 50%;
+  right: 50%;
+  text-align: center;
 }
 
 .boxrecorder1 {
-  padding: 50;
-  margin: 50px;
+  padding: 5px 5px;
+  margin: 20px;
+  float: right;
+  width: 60%;
 }
 
 .boxrecorder2 {
   margin: 20px;
-  padding: 20px;
+  padding: 25px;
+  font-size: 18px;
 }
 
 /*Footer*/
 .footer {
-  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: pink;
-  font-size: 10px;
+  font-size: 15px;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.footer h1 {
+  font-size: 15px;
 }
